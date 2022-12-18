@@ -1,13 +1,11 @@
 #Desenvolva um programa que tenha uma função que verifique se um número inteiro qualquer é par ou impar
-numero = int
 def calculo():
-    calculo = numero/2
-    if calculo == type(int):
+    calculo = numero%2
+    if calculo == 0:
         print('Par')
-    elif calculo == type(float):
+    else:
         print('Impar')
 
 
-numero = (input('Digite um número para saber se é par ou impar: '))
-print(numero)
+numero = int((input('Digite um número para saber se é par ou impar: ')))
 calculo()
