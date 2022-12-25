@@ -7,8 +7,12 @@ class simuladorDeDado:
         self.mensagem = 'Você gostaria de gerar um novo valor para o dado? '
     def Iniciar(self):
         resposta = input(self.mensagem)
-        if resposta == 'sim':
+        if resposta == 'sim' or resposta == 's':
             self.gerarValorDoDado()
+        elif resposta == 'nao' or resposta == 'n':
+            print('Obrigado, até mais.')
+        else:
+            print('Erro')
 
 
     def gerarValorDoDado(self):
