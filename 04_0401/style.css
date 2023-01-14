@@ -1,30 +1,3 @@
-div{
-    text-align: center;
-    border: solid 1px black;
-    border-radius: 9px;
-    padding: 4px;
-}button{
-    height: 2.2em;
-    width: 5.5em;
-}#iniciar{
-    background-color: green;
-    color: white;
-    border-radius: 5px;
-    border: solid 1px black;
-}#pausar{
-    background-color: darkgray;
-    color: white;
-    border-radius: 5px;
-    border: solid 1px black;
-}#parar{
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    border: solid 1px black;
-}#iniciar:active{
-    background-color: black;
-}#pausar:active{
-    background-color: black;
-}#parar:active{
-    background-color: black;
+.header{
+    
 }
