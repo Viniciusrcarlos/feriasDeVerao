@@ -6,7 +6,7 @@
     font-family: 'Open Sans', sans-serif;
 }body{
     height: 100vh;
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da) ;
+    background: #f38633;
     display: flex;
     justify-content: center;
     align-items: center;
