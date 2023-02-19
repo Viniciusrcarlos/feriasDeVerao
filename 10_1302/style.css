@@ -6,7 +6,7 @@
     color: #333;
     box-sizing: border-box;
 }body{
-    background-color: black;
+    background-color: #333;
     background-position: center;
     background-size: cover;
 }button{
