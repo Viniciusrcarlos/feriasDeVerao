@@ -6,7 +6,7 @@
     color: #333;
     box-sizing: border-box;
 }body{
-    background-image: url(/10_1302/ponte.jpeg);
+    background-color: black;
     background-position: center;
     background-size: cover;
 }button{
